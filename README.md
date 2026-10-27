@@ -17,14 +17,17 @@ For SiYuan, [GitHub declined a second CVE assignment](https://github.com/siyuan-
 
 ## Selected Public Security Advisories
 
-These project advisories credit `dpfkdlemtp` as Reporter and identify patched versions.
+These published High-severity advisories credit `dpfkdlemtp` as Reporter and identify patched versions.
 
 | Project | Published advisory | Severity | Patched versions |
 | --- | --- | --- | --- |
 | dbt Core | [Arbitrary file overwrite during dependency resolution](https://github.com/dbt-labs/dbt/security/advisories/GHSA-xwgp-43x8-639j) | High | 1.12.6 / 1.11.16 |
 | Datasette | [Table permission bypass](https://github.com/simonw/datasette/security/advisories/GHSA-h547-rmjf-5m2m) | High | 0.65.5 / 1.0a40 |
-| GitPython | [Symlink-based path traversal in Submodule.move()](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-gq48-pqfc-9p58) | Moderate | >= 3.2.0 |
+| TwelveMonkeys | [Excessive memory allocation in the PICT image reader](https://github.com/haraldk/TwelveMonkeys/security/advisories/GHSA-859w-fq5p-6c86) | High | 3.15.1 |
+| Kaneo | [Outbound destination validation bypass](https://github.com/usekaneo/kaneo/security/advisories/GHSA-w4gj-hv53-f2pj) | High | 2.47.1 |
 
-Advisory links, reporter credit, and patched versions verified on 2026-10-27. These three advisories currently have no assigned CVE ID in their GitHub advisory records.
+The Kaneo advisory credits multiple reporters, including `dpfkdlemtp`.
 
-Only publicly disclosed, verifiable work is listed here. A CVE identifier does not by itself imply a monetary bounty.
+Advisory links, reporter credit, and patched versions verified on 2026-10-27. These four advisories currently have no assigned CVE ID in their GitHub advisory records.
+
+Only publicly disclosed, verifiable work is listed here.
