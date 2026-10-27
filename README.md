@@ -6,6 +6,8 @@ Publicly verifiable vulnerability research by **Tae-Hoon Ha (hataehoon)**. My Gi
 
 | CVE / case page | Project | Attribution | Official CVE record |
 | --- | --- | --- | --- |
+| [CVE-2026-116192](https://github.com/rclone/rclone/security/advisories/GHSA-xqmq-v4wj-rw5m) | rclone | Reporter (`dpfkdlemtp`) | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2026/116xxx/CVE-2026-116192.json) |
+| [CVE-2026-110860](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-gq48-pqfc-9p58) | GitPython | Reporter (`dpfkdlemtp`) | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2026/110xxx/CVE-2026-110860.json) |
 | [CVE-2026-100633](https://github.com/dpfkdlemtp/CVE-2026-100633) | SiYuan | Reporter (`dpfkdlemtp`) | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2026/100xxx/CVE-2026-100633.json) |
 | [CVE-2021-43716](https://github.com/dpfkdlemtp/CVE-2021-43716) | Epson EH-TW5350 | B-BEAM-BOB team research | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2021/43xxx/CVE-2021-43716.json) |
 | [CVE-2021-43717](https://github.com/dpfkdlemtp/CVE-2021-43717) | Epson EH-TW5350 | B-BEAM-BOB team research | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2021/43xxx/CVE-2021-43717.json) |
@@ -17,7 +19,9 @@ For SiYuan, [GitHub declined a second CVE assignment](https://github.com/siyuan-
 
 ## Selected Public Security Advisories
 
-These published High-severity advisories credit `dpfkdlemtp` as Reporter and identify patched versions.
+These published advisories credit `dpfkdlemtp` as Reporter and identify patched versions.
+
+### High severity
 
 | Project | Published advisory | Severity | Patched versions |
 | --- | --- | --- | --- |
@@ -26,8 +30,15 @@ These published High-severity advisories credit `dpfkdlemtp` as Reporter and ide
 | TwelveMonkeys | [Excessive memory allocation in the PICT image reader](https://github.com/haraldk/TwelveMonkeys/security/advisories/GHSA-859w-fq5p-6c86) | High | 3.15.1 |
 | Kaneo | [Outbound destination validation bypass](https://github.com/usekaneo/kaneo/security/advisories/GHSA-w4gj-hv53-f2pj) | High | 2.47.1 |
 
-The Kaneo advisory credits multiple reporters, including `dpfkdlemtp`.
+### Additional selected projects
 
-Advisory links, reporter credit, and patched versions verified on 2026-10-27. These four advisories currently have no assigned CVE ID in their GitHub advisory records.
+| Project | Published advisory | Severity | Patched versions |
+| --- | --- | --- | --- |
+| GitPython | [Symlink-based path traversal in Submodule.move()](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-gq48-pqfc-9p58) | Moderate | >= 3.2.0 |
+| rclone | [Server-side request forgery in named remote roots](https://github.com/rclone/rclone/security/advisories/GHSA-xqmq-v4wj-rw5m) | Moderate | 1.74.2 |
+| AngleSharp | [SVG serialization mutation XSS](https://github.com/AngleSharp/AngleSharp/security/advisories/GHSA-cgp3-27rh-pcp2) | Moderate | >= 1.8.2 |
+| Sonos tract (ONNX inference) | [Symlink traversal in ONNX external data loading](https://github.com/sonos/tract/security/advisories/GHSA-7q44-75hx-2x3h) | Moderate | 0.21.19 / 0.22.5 / 0.23.9 |
+
+Advisory links, reporter credit, and patched versions verified on 2026-10-27. Severities follow the project advisories. Published CVE records are listed above; an advisory's CVE field may not yet reflect an existing CVE record.
 
 Only publicly disclosed, verifiable work is listed here.
