@@ -4,6 +4,8 @@ Publicly verifiable vulnerability research by **Tae-Hoon Ha (hataehoon)**. Publi
 
 ## Published CVEs
 
+**19 published CVEs:** 16 with Reporter/Finder credit and three from Epson team research.
+
 | CVE / case page | Project | Attribution | Official CVE record |
 | --- | --- | --- | --- |
 | [CVE-2026-118196](https://lists.apache.org/thread/2x7c9741d50xw3o10h92rk19cr55trof) | Apache Allura | Reporter (`hataehoon`) | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2026/118xxx/CVE-2026-118196.json) |
@@ -15,6 +17,13 @@ Publicly verifiable vulnerability research by **Tae-Hoon Ha (hataehoon)**. Publi
 | [CVE-2026-116192](https://github.com/rclone/rclone/security/advisories/GHSA-xqmq-v4wj-rw5m) | rclone | Reporter (`dpfkdlemtp`) | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2026/116xxx/CVE-2026-116192.json) |
 | [CVE-2026-110860](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-gq48-pqfc-9p58) | GitPython | Reporter (`dpfkdlemtp`) | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2026/110xxx/CVE-2026-110860.json) |
 | [CVE-2026-100633](https://github.com/dpfkdlemtp/CVE-2026-100633) | SiYuan | Reporter (`dpfkdlemtp`) | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2026/100xxx/CVE-2026-100633.json) |
+| [CVE-2026-118405](https://lists.apache.org/thread/9d4nqgq2ox0g88n9gnng8dskshtp3dgo) | Apache Roller | Finder (`hataehoon` / `dpfkdlemtp`) | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2026/118xxx/CVE-2026-118405.json) |
+| [CVE-2026-118408](https://lists.apache.org/thread/kzm975k5qhdpwztdmbdfwlfwsd6vopw0) | Apache Roller | Finder (`hataehoon` / `dpfkdlemtp`) | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2026/118xxx/CVE-2026-118408.json) |
+| [CVE-2026-118409](https://lists.apache.org/thread/nf6c1qfdclkf61s3h8p8chf4y7ztjlwd) | Apache Roller | Finder (`hataehoon` / `dpfkdlemtp`) | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2026/118xxx/CVE-2026-118409.json) |
+| [CVE-2026-118410](https://lists.apache.org/thread/oy4wv2d7sy9p9kl9nnvvfsjlgsk8bnco) | Apache Roller | Finder (`hataehoon` / `dpfkdlemtp`) | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2026/118xxx/CVE-2026-118410.json) |
+| [CVE-2026-118411](https://lists.apache.org/thread/q2h1r9v5qqofxh8qds58dtqrhf85ll60) | Apache Roller | Finder (`hataehoon` / `dpfkdlemtp`) | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2026/118xxx/CVE-2026-118411.json) |
+| [CVE-2026-118412](https://lists.apache.org/thread/lmlcrh06ynr0tfgg2f7vwh3h9gr7b1cs) | Apache Roller | Finder (`hataehoon` / `dpfkdlemtp`) | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2026/118xxx/CVE-2026-118412.json) |
+| [CVE-2026-123765](https://lists.apache.org/thread.html/ddvvg034rwqpnsqz8sw0rldyqqoh9c92) | Apache Sling XSS | Reporter (`dpfkdlemtp`) | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2026/123xxx/CVE-2026-123765.json) |
 | [CVE-2021-43716](https://github.com/dpfkdlemtp/CVE-2021-43716) | Epson EH-TW5350 | B-BEAM-BOB team research | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2021/43xxx/CVE-2021-43716.json) |
 | [CVE-2021-43717](https://github.com/dpfkdlemtp/CVE-2021-43717) | Epson EH-TW5350 | B-BEAM-BOB team research | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2021/43xxx/CVE-2021-43717.json) |
 | [CVE-2021-43718](https://github.com/dpfkdlemtp/CVE-2021-43718) | Epson EH-TW5350 | B-BEAM-BOB team research | [CVE record](https://github.com/CVEProject/cvelistV5/blob/main/cves/2021/43xxx/CVE-2021-43718.json) |
@@ -55,6 +64,6 @@ Selected public advisories with researcher credit. Severity labels and fixed ver
 | AngleSharp | [SVG serialization mutation XSS](https://github.com/AngleSharp/AngleSharp/security/advisories/GHSA-cgp3-27rh-pcp2) | Moderate | >= 1.8.2 |
 | Sonos tract (ONNX inference) | [Symlink traversal in ONNX external data loading](https://github.com/sonos/tract/security/advisories/GHSA-7q44-75hx-2x3h) | Moderate | 0.21.19 / 0.22.5 / 0.23.9 |
 
-CVE publication, researcher credit, advisory severity and fixed-version fields verified on **2026-11-11**. The CVE table includes Reporter and Finder credits; Epson records retain their team attribution.
+CVE publication, researcher credit, advisory severity and fixed-version fields verified on **2026-11-12**. The CVE table includes Reporter and Finder credits; Epson records retain their team attribution.
 
 Only publicly disclosed, verifiable work is listed here.
